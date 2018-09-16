@@ -25,5 +25,6 @@ COPY . /usr/src/app
 # Environment variables
 ENV NODE_ENV test
 
+
 # Main command
 CMD [ "npm", "test" ]
